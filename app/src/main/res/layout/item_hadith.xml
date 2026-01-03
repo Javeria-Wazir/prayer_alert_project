@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/rounded_bg">
+
+    <TextView
+        android:id="@+id/hadithText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Hadith text will go here..."
+        android:textSize="16sp"
+        android:textColor="#0D47A1"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/hadithSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Source"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:textColor="#1565C0"
+        android:gravity="end"/>
+
+</LinearLayout>

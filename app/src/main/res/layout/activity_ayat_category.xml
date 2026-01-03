@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient"
+    android:padding="16dp"
+    android:paddingTop="24dp"
+    tools:context=".AyatCategoryActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beautiful Ayats"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Category Cards -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardPeace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="#E3F2FD"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On Peace and Comfort"
+            android:textSize="18sp"
+            android:textColor="#0D47A1"
+            android:padding="20dp"
+            android:gravity="center"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardLove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="#E3F2FD"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On God's Love and Nearness"
+            android:textSize="18sp"
+            android:textColor="#0D47A1"
+            android:padding="20dp"
+            android:gravity="center"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardHope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="#E3F2FD"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On Hope and Patience"
+            android:textSize="18sp"
+            android:textColor="#0D47A1"
+            android:padding="20dp"
+            android:gravity="center"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardBeauty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#E3F2FD"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Note on Beauty"
+            android:textSize="18sp"
+            android:textColor="#0D47A1"
+            android:padding="20dp"
+            android:gravity="center"/>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
