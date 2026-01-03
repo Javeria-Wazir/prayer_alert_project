@@ -62,12 +62,18 @@ The application does not require internet access for core features, ensuring com
 
 ---
 
-## Technical Implementation Guide
+## Tech Stack
 
-### 1. Persistent Prayer Reminders
+- Java  
+- XML  
+- Room Database  
+- Android Jetpack Components  
+- Android Studio  
 
-**Permissions Used**
-```xml
-SCHEDULE_EXACT_ALARM
-POST_NOTIFICATIONS
-RECEIVE_BOOT_COMPLETED
+---
+
+## Conclusion
+
+Al’Mumin successfully fulfills its goal of being a private, offline, and reliable Islamic companion app.  
+With persistent prayer reminders, offline Islamic content, and user-friendly customization, it provides a complete spiritual support system without compromising user privacy.
+
